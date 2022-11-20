@@ -1,27 +1,23 @@
 #include <stdio.h>
 
-
-int calculate(int, int);
 int fibonacci(int);
 
 int main(){
   int a0 = 1, a1 = 1;
-  int n;
+  int n, result;
 
   printf("n = ");
   scanf("%d", &n);
+
+  result = fibonacci(n);
+
+  printf("fibonacci(%d) = %d\n", n, result);
 }
 
 int fibonacci(int n){
-  static int count = 0;
+  static int count = 1;
 
-  printf("called %d times: n=%d\n", count, n);
+  printf("called %d times: n=%d\n", count++, n);
   if(n == 0 || n == 1) return 1;
-  return fibonacci(n - 1) + fibonacci(n - 2)
-}
-
-int calculate(int an_1, int an_2){
-
-
-
+  return fibonacci(n - 1) + fibonacci(n - 2);
 }
