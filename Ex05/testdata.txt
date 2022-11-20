@@ -1,0 +1,7 @@
+std1dc9
+std2cd14
+std3tc1
+std3dc12
+hdw3dc2
+std5dc32
+std6dc55

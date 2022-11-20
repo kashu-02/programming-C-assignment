@@ -1,0 +1,6 @@
+単体テストを行うときのコンパイル方法: 
+  gcc -DDEBUG prog02_main.c
+  gcc -DDEBUG prog02_calc.c
+
+結合テスト
+  gcc prog02_main.c prog02_calc.c

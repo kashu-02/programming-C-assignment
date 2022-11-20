@@ -1,0 +1,10 @@
+Brown      Noah       1999  3   31
+Jones      Ava        1998  4   1
+Garcia     Charlotte  1998  7   4
+Miller     Sophia     1999  10  2
+Davis      Elijah     1998  5   5
+Rodriguez  William    2000  12  1
+Martinez   Amelia     2000  2   4
+Hernandez  Isabella   2000  9   30
+Lopez      Lucas      1998  10  22
+Gonzalez   Henry      1996  1   24
