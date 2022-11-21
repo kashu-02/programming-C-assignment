@@ -6,13 +6,13 @@
 
 int main()
 {
-  int *arr[WORDS],i,j,word_length;
-  char word[100];
+  int i,j,word_length;
+  char word[100], *arr[WORDS];
 
   for(i = 0; i < WORDS; i++){
     printf("Input word #%d: ", i + 1); 
     scanf("%s",&word);
-    arr[i] = (*char) malloc(sizeof(char) * strlen(word));
+    arr[i] = (char*) malloc(sizeof(char) * strlen(word));
     strcpy(arr[i], word);
   }
 
