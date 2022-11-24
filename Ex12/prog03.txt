@@ -1,0 +1,8 @@
+input_planetの戻り値が 0 の場合（正常）
+$ gcc prog03_main.c -DTEST0
+
+input_planetの戻り値が-1 の場合（異常）
+$ gcc prog03_main.c -DTEST1
+
+prog03_main.c と prog03_input.c を組み合わせて全体での動作テストを行う際のコンパイル方法
+$ gcc prog03_main.c prog03_input.c
